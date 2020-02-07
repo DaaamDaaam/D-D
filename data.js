@@ -1,14 +1,14 @@
-liste-theme = [
+const liste_theme = [
     {
         id : 1,
         titre:'Thème 1'
     }
 ]
 
-liste-quiz = [
+const liste_quiz = [
     {
         id : 1,
-        titre: 'quiz 1',
-        id-theme: 1
+        titre: 'Quiz 1',
+        id_theme: 1
     }
 ]

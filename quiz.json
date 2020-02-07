@@ -15,6 +15,31 @@
                     "titre" : "Sidney"
                 }
             ]
+        },
+
+        {
+            "id" : 2,
+            "titre" : "Combien de dieu trône a l’Olympe ?",
+            "img" : "img/q2.jpg",
+            "reponses" : [
+                {
+                    "id" : 1,
+                    "titre" : "8" 
+                },
+                {
+                    "id" : 2,
+                    "titre" : "10"
+                },
+                {
+                    "id" : 3,
+                    "titre" : "12",
+                    "correcte" : true
+                },
+                {
+                    "id" : 4,
+                    "titre" : "14"
+                }
+            ]
         }
     ] 
 }

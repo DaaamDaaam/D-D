@@ -5,7 +5,9 @@
   <meta charset="utf-8">
   <title>Titre de la page</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
+  <script src="data.js"></script>
+  <script src="quiz.js"></script>
+  <script src="main.js"></script>
   <style></style>
 </head>
 
@@ -24,6 +26,17 @@
   <section class="questions">
     <h1>Question n°1 :</h1>
   </section>
+
+  <script>
+    recupereQuiz(1).then(quiz => {
+      console.log(quiz);
+      document.getElementById('app').innerHTML = `Nombre de questions ${quiz.questions.lenght}`;
+      quiz.questions.forEach(element => {
+        html += `<div>${element.titre}</div>`;
+      });
+        document.getElementById('app').innerHTML = html;
+    })
+  </script>
 </body>
 
 </html>
