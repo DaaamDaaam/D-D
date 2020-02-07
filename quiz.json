@@ -1,1 +1,19 @@
-
+{
+    "questions" : [
+        {
+            "id" : 1,
+            "titre" : "Quel est ...",
+            "reponses" : [
+                {
+                    "id" : 1,
+                    "titre" : "réponse 1",
+                    "correcte" : true
+                },
+                {
+                    "id" : 2,
+                    "titre" : "réponse 2",
+                }
+            ]
+        },
+    ]
+}
