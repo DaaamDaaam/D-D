@@ -11,6 +11,7 @@ label {
 select {
     font-size: .9rem;
     padding: 2px 5px;
+    border-radius: 5px;
 }
 
 .choix_theme {
@@ -23,7 +24,12 @@ select {
     background-color: #A2C2E8;
 }
 
-hr {
+hr.inter_theme {
+    width: 20%;
+    margin: 10px auto;
+}
+
+hr.inter_section {
     margin: 50px auto;
     width: 40%;
 }
@@ -36,4 +42,23 @@ hr {
     width: 50%;
     height: 20vh;
     background-color:#1EA1FF;
+}
+
+.icone img {
+    width: 200px;
+    position: fixed;
+    top: 10;
+    left: 0;
+}
+
+.icone2 img {
+    width: 200px;
+    position: fixed;
+    top: 10;
+    right: 0;
+    transform:scaleX(-1);
+}
+
+body {
+    background-color: #FFF5E3;
 }
