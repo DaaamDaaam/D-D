@@ -28,12 +28,13 @@
 
   <section class="questions">
     <h1>Question n°1 :</h1>
+    <div id="app"></div>
   </section>
 
   <script>
       recupereQuiz(1).then(quiz => {
         console.log(quiz);
-        document.getElementById('app').innerHTML = `Nombre de questions ${quiz.questions.lenght}`;
+        document.getElementById('app').innerHTML = `Nombre de questions ${quiz.questions.length}`;
         quiz.questions.forEach(element => {
           html += `<div>${element.titre}</div>`;
         });
