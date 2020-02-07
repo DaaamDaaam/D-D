@@ -2,18 +2,19 @@
     "questions" : [
         {
             "id" : 1,
-            "titre" : "Quel est ...",
+            "titre" : "Quel est la capitale de l’Australie ?",
+            "img" : "img/q1.jpg",
             "reponses" : [
                 {
                     "id" : 1,
-                    "titre" : "réponse 1",
+                    "titre" : "Canberra",
                     "correcte" : true
                 },
                 {
                     "id" : 2,
-                    "titre" : "réponse 2",
+                    "titre" : "Sidney"
                 }
             ]
-        },
-    ]
+        }
+    ] 
 }
