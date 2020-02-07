@@ -1,7 +1,7 @@
 liste-theme = [
     {
         id : 1,
-        titre:'Theme 1'
+        titre:'Thème 1'
     }
 ]
 
