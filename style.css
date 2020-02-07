@@ -1,0 +1,39 @@
+label,
+footer {
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+.choix_theme {
+    width: 15%;
+    margin: 0 auto;
+    text-align: center;
+    height: 80px;
+    border-radius: 25px;
+    padding-top: 20px;
+    background-color: #A2C2E8;
+}
+
+hr {
+    margin: 50px auto;
+    width: 40%;
+}
+
+.questions {
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    border-radius: 25px;
+    width: 50%;
+    height: 20vh;
+    background-color:#1EA1FF;
+}
