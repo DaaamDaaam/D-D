@@ -2,42 +2,210 @@
     "questions" : [
         {
             "id" : 1,
-            "titre" : "Quel est la capitale de l’Australie ?",
-            "img" : "img/q1.jpg",
+            "titre" : "On situe l’apparition de l’homme à :",
+            "img" : "img/q1/Evolution_de_l'Homme.jpg",
             "reponses" : [
                 {
                     "id" : 1,
-                    "titre" : "Canberra",
-                    "correcte" : true
+                    "titre" : "10 millions d'années av. J.C."
                 },
                 {
                     "id" : 2,
-                    "titre" : "Sidney"
+                    "titre" : "5 millions d'années av. J.C."
+                },
+                {
+                    "id" : 3,
+                    "titre" : "3 millions d'années av. J.C.",
+                    "correcte" : true
                 }
             ]
         },
 
         {
             "id" : 2,
-            "titre" : "Combien de dieu trône a l’Olympe ?",
-            "img" : "img/q2.jpg",
+            "titre" : "La préhistoire débute :",
+            "img" : "img/q1/prehistoire.jpg",
             "reponses" : [
                 {
                     "id" : 1,
-                    "titre" : "8" 
-                },
-                {
-                    "id" : 2,
-                    "titre" : "10"
-                },
-                {
-                    "id" : 3,
-                    "titre" : "12",
+                    "titre" : "A l'apparition de l'Homme",
                     "correcte" : true
                 },
                 {
-                    "id" : 4,
-                    "titre" : "14"
+                    "id" : 2,
+                    "titre" : "A l'invention de l'écriture"
+                },
+                {
+                    "id" : 3,
+                    "titre" : "A l'age de fer"
+                }
+            ]
+        },
+
+        {
+            "id" : 3,
+            "titre" : "On situe l’âge de fer à :",
+            "img" : "img/q1/agedefer.jpg",
+            "reponses" : [
+                {
+                    "id" : 1,
+                    "titre" : "1500 av. J.C." 
+                },
+                {
+                    "id" : 2,
+                    "titre" : "800 av. J.C.",
+                    "correcte" : true
+                },
+                {
+                    "id" : 3,
+                    "titre" : "300 av. J.C."
+                }
+            ]
+        },
+
+        {
+            "id" : 4,
+            "titre" : "Vercingétorix est vaincu à Alésia en 52 av. J.-C. par :",
+            "img" : "img/q1/vercin.jfif",
+            "reponses" : [
+                {
+                    "id" : 1,
+                    "titre" : "Charlemagne" 
+                },
+                {
+                    "id" : 2,
+                    "titre" : "Les Vikings"
+                },
+                {
+                    "id" : 3,
+                    "titre" : "Jules César",
+                    "correcte" : true
+                }
+            ]
+        },
+
+        {
+            "id" : 5,
+            "titre" : "Clovis Ier est le fondateur de la dynastie :",
+            "img" : "img/q1/clovis.jpg",
+            "reponses" : [
+                {
+                    "id" : 1,
+                    "titre" : "Carolingienne" 
+                },
+                {
+                    "id" : 2,
+                    "titre" : "Mérovingienne",
+                    "correcte" : true
+                },
+                {
+                    "id" : 3,
+                    "titre" : "Capétienne"
+                }
+            ]
+        },
+
+        {
+            "id" : 6,
+            "titre" : "Charlemagne est couronné empereur d’Occident par le pape Léon III en l’an :",
+            "img" : "img/q1/charlemagne.jpg",
+            "reponses" : [
+                {
+                    "id" : 1,
+                    "titre" : "600" 
+                },
+                {
+                    "id" : 2,
+                    "titre" : "800",
+                    "correcte" : true
+                },
+                {
+                    "id" : 3,
+                    "titre" : "1000"
+                }
+            ]
+        },
+        
+        {
+            "id" : 7,
+            "titre" : "Charlemagne est couronné empereur d’Occident par le pape Léon III en l’an :",
+            "img" : "img/q1/charlemagne.jpg",
+            "reponses" : [
+                {
+                    "id" : 1,
+                    "titre" : "600" 
+                },
+                {
+                    "id" : 2,
+                    "titre" : "800",
+                    "correcte" : true
+                },
+                {
+                    "id" : 3,
+                    "titre" : "1000"
+                }
+            ]
+        },
+
+        {
+            "id" : 8,
+            "titre" : "Le premier roi des Francs fut :",
+            "img" : "img/q1/francs.png",
+            "reponses" : [
+                {
+                    "id" : 1,
+                    "titre" : "Clovis",
+                    "correcte" : true 
+                },
+                {
+                    "id" : 2,
+                    "titre" : "Hugues Capet"
+                },
+                {
+                    "id" : 3,
+                    "titre" : "Arthur"
+                }
+            ]
+        },
+
+        {
+            "id" : 9,
+            "titre" : "Qui est roi de Naples de 1806 à 1808 ?",
+            "img" : "img/q1/bonaparte.jpg",
+            "reponses" : [
+                {
+                    "id" : 1,
+                    "titre" : "Bernadotte"
+                },
+                {
+                    "id" : 2,
+                    "titre" : "Joseph Bonaparte",
+                    "correcte" : true 
+                },
+                {
+                    "id" : 3,
+                    "titre" : "Louis Bonaparte"
+                }
+            ]
+        },
+
+        {
+            "id" : 10,
+            "titre" : "De Gaulle adopte quel emblème pour la résistance ?",
+            "img" : "img/q1/de gaulle.jfif",
+            "reponses" : [
+                {
+                    "id" : 1,
+                    "titre" : "La croix de Lorraine",
+                    "correcte" : true 
+                },
+                {
+                    "id" : 2,
+                    "titre" : "La croix de Malte"
+                },
+                {
+                    "id" : 3,
+                    "titre" : "La croix de Saint André"
                 }
             ]
         }
