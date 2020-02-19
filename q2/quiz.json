@@ -7,15 +7,15 @@
             "reponses" : [
                 {
                     "id" : 1,
-                    "titre" : "Bourg baguette"
+                    "titre" : "Bourg-Baguette"
                 },
                 {
                     "id" : 2,
-                    "titre" : "Bourg raclette"
+                    "titre" : "Bourg-Raclette"
                 },
                 {
                     "id" : 3,
-                    "titre" : "Bourg palette",
+                    "titre" : "Bourg-Palette",
                     "correcte" : true
                 }
             ]
