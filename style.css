@@ -3,6 +3,13 @@ footer {
     font-family: sans-serif;
 }
 
+.titreDD {
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 label {
     font-size: 1rem;
     padding-right: 10px;
@@ -15,13 +22,12 @@ select {
 }
 
 .choix_theme {
-    width: 15%;
+    width: 40%;
     margin: 0 auto;
     text-align: center;
-    height: 80px;
-    border-radius: 25px;
     padding-top: 20px;
-    background-color: #A2C2E8;
+    background-color:white;
+    border-bottom: solid 5px #1EA1FF;
 }
 
 hr.inter_theme {
@@ -38,10 +44,11 @@ hr.inter_section {
     text-align: center;
     padding-top: 10px;
     margin: 0 auto;
-    border-radius: 25px;
-    width: 50%;
+    
+    width: 40%;
     height: 20vh;
-    background-color:#1EA1FF;
+    background-color:white;
+    border-bottom: solid 5px #1EA1FF;
 }
 
 .icone img {
@@ -60,5 +67,11 @@ hr.inter_section {
 }
 
 body {
-    background-color: #FFF5E3;
+    background-color: rgb(245,245,245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#quiz {
+    padding: 10px;
+    margin-bottom: 20px;
 }
