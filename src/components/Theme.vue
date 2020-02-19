@@ -13,7 +13,9 @@ export default {
   name: "Theme",
   props: ["idTheme"],
   data: function() {
-    return {};
+    return {
+      idQuiz : null
+    };
   },
   computed: {
     theme: function() {
