@@ -20,3 +20,7 @@ export function getTheme(id) {
 export function getQuiz(id) {
     return listeQuiz.find(item => item.id === id);
   }
+
+export function getListeQuiz(id_theme) {
+    return liste_quiz.filter(item.id_theme === id_theme);
+}
