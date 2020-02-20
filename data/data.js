@@ -1,15 +1,24 @@
-export const liste_theme = [
+export const listeTheme = [
     {
         id : 1,
-        titre:'Thème 1'
+        titre:'Histoire de France'
+    },
+    {
+        id : 2,
+        titre:'Pokémon'
     }
 ]
 
-export const liste_quiz = [
+export const listeQuiz = [
     {
         id : 1,
         titre: 'Quiz 1',
-        id_theme: 1
+        idTheme: 1
+    },
+    {
+        id : 2,
+        titre: 'Quiz 2',
+        idTheme: 2
     }
 ]
 
@@ -22,5 +31,5 @@ export function getQuiz(id) {
   }
 
 export function getListeQuiz(idTheme) {
-    return listeQuiz.filter(item.idTheme === idTheme);
+    return listeQuiz.filter(item => item.idTheme === idTheme);
 }

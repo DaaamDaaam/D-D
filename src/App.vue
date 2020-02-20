@@ -13,7 +13,7 @@
 <script>
 import Theme from "./components/Theme.vue";
 import ThemeSelect from "./components/ThemeSelect.vue";
-import * as data from "../quiz";
+import * as data from "../data/data";
 
 export default {
   name: "app",
@@ -38,7 +38,7 @@ export default {
 <style>
 .theme-bloc {
   padding-top: 1rem;
-  background-color: #aca0c2;
+  background-color: rgb(61, 221, 123);
 }
 .quiz-bloc {
   padding-top: 1rem;

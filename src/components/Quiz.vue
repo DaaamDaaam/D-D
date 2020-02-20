@@ -2,6 +2,8 @@
     <div>Quiz : {{ idQuiz }}</div>
 </template>
 <script>
+import { getQuizAjax } from "../../data/ajax";
+
 export default {
     name: "Quiz",
     props: ["idQuiz"],

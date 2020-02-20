@@ -1,14 +1,15 @@
 <template>
   <div>
     <div class="d-flex align-items-end quiz-title-bloc" v-for="quiz in listeQuiz" :key="quiz.id">
-      <h3 class="flex-fill quiz-title-text">Quiz 1 de {{ theme.titre }}</h3>
+      <h3 class="flex-fill quiz-title-text">Quiz {{ idTheme }} de {{ theme.titre }}</h3>
       <button type="button" class="btn btn-secondary btn-sm" @click="selectQuiz(quiz.id)">Lancer</button>
     </div>
   </div>
 </template>
 
 <script>
-import { getTheme, getlisteQuiz} from "../../quiz";
+import { getTheme, getListeQuiz} from "../../data/data";
+
 export default {
   name: "Theme",
   props: ["idTheme"],
@@ -22,6 +23,8 @@ export default {
       return getTheme(this.idTheme);
     },
     listeQuiz: function(){
+  
+      //return getListeQuiz(this.idTheme);
       return getListeQuiz(this.idTheme);
     }
   },
