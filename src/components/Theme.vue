@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="d-flex align-items-end quiz-title-bloc" v-if="theme">
+    <div class="d-flex align-items-end quiz-title-bloc" v-for="quiz in listeQuiz" :key="quiz.id">
       <h3 class="flex-fill quiz-title-text">Quiz 1 de {{ theme.titre }}</h3>
-      <button type="button" class="btn btn-secondary btn-sm">Lancer</button>
+      <button type="button" class="btn btn-secondary btn-sm" @click="selectQuiz(quiz.id)">Lancer</button>
     </div>
   </div>
 </template>
@@ -20,6 +20,15 @@ export default {
   computed: {
     theme: function() {
       return getTheme(this.idTheme);
+    },
+    listeQuiz: function(){
+      return getListeQuiz(this.idTheme);
+    }
+  },
+  methods: {
+    selectQuiz: function(idQuiz){
+      this.idQuiz = idQuiz;
+      this.$emit("select-quiz", idQuiz);
     }
   }
 };
