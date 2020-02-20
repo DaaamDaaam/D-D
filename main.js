@@ -1,5 +1,5 @@
 async function recupereQuiz(id) {
-    const res = await fetch(`q${id}/quiz.json`);
+    const res = await fetch(`quiz/quiz${id}.json`);
     if(res.ok) {
         const json = await  res.json();
         return json;
